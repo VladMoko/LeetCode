@@ -6,7 +6,7 @@ class Solution {
         int reversNumber = 0;
         int remainder;
         int originalNumber;
-        if (x > 0){
+        if (x >= 0){
             originalNumber = x;
         }else return false;
         //get the revers of originalNumber
