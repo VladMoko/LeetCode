@@ -5,7 +5,10 @@ class Solution {
         //store the number to originalNumber
         int reversNumber = 0;
         int remainder;
-        int originalNumber = x;
+        int originalNumber;
+        if (x > 0){
+            originalNumber = x;
+        }else return false;
         //get the revers of originalNumber
         while (x != 0) {
             remainder = x % 10;
